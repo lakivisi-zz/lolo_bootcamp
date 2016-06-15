@@ -5,6 +5,13 @@ class NotesApplication(object):
 		self.note_author = note_author
 		self.note_list = []
 	def create(self, note_content):
+		pass
+
+	def list(self):
+		pass
+
+	def get(self,note_id):
+		pass
 		
 		
 		
