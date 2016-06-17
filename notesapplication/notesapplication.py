@@ -11,15 +11,11 @@ class NotesApplication(object):
         self.note_list.append(note_content)
 
     def notes(self):
-        res_list = []
         for note_id in range(len(self.note_list)):
-            print note_id,self.note_list[note_id],self.author
+            return note_id,self.note_list[note_id],self.author
         
     def get_note(self, note_id):
-        if note_id >0:
-            return str(self.note_list[note_id])
-        else:
-            return 'Invalid Note'
+    	return str(self.note_list[note_id])
     
     def search(self, search_text):
         for content in range(len(self.note_list)):

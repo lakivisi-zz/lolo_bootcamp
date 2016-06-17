@@ -12,4 +12,4 @@ def fizz(n):
 	elif n % 3 == 0:
 		return 'Fizz'
 	else:
-		return 'Number not divisible by 3 and 5'
+		return n 
