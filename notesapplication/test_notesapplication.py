@@ -19,7 +19,8 @@ class NotesApplicationTest(unittest.TestCase):
 		note = obj.get_note(0)
 
 		self.assertEqual(True, type(note) is str)
-
+		
+	
 
 
 if __name__=='__main__':
